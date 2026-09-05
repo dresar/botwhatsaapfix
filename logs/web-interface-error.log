@@ -1,0 +1,256 @@
+2025-06-30 10:15:59: Error: Cannot find module 'express'
+2025-06-30 10:15:59: Require stack:
+2025-06-30 10:15:59: - C:\codingan ku\bot watshaap fix\app.js
+2025-06-30 10:15:59:     at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+2025-06-30 10:15:59:     at Hook._require.Module.require (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-06-30 10:15:59:     at require (node:internal/modules/helpers:136:16)
+2025-06-30 10:15:59:     at Object.<anonymous> (C:\codingan ku\bot watshaap fix\app.js:1:17)
+2025-06-30 10:15:59:     at Module._compile (node:internal/modules/cjs/loader:1562:14)
+2025-06-30 10:15:59:     at Object..js (node:internal/modules/cjs/loader:1699:10)
+2025-06-30 10:15:59:     at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-06-30 10:15:59:     at Function._load (node:internal/modules/cjs/loader:1123:12)
+2025-06-30 10:15:59:     at Object.<anonymous> (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2025-06-30 10:15:59:     at Module._compile (node:internal/modules/cjs/loader:1562:14) {
+2025-06-30 10:15:59:   code: 'MODULE_NOT_FOUND',
+2025-06-30 10:15:59:   requireStack: [ 'C:\\codingan ku\\bot watshaap fix\\app.js' ]
+2025-06-30 10:15:59: }
+2025-06-30 10:15:59: Error: Cannot find module 'express'
+2025-06-30 10:15:59: Require stack:
+2025-06-30 10:15:59: - C:\codingan ku\bot watshaap fix\app.js
+2025-06-30 10:15:59:     at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+2025-06-30 10:15:59:     at Hook._require.Module.require (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-06-30 10:15:59:     at require (node:internal/modules/helpers:136:16)
+2025-06-30 10:15:59:     at Object.<anonymous> (C:\codingan ku\bot watshaap fix\app.js:1:17)
+2025-06-30 10:15:59:     at Module._compile (node:internal/modules/cjs/loader:1562:14)
+2025-06-30 10:15:59:     at Object..js (node:internal/modules/cjs/loader:1699:10)
+2025-06-30 10:15:59:     at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-06-30 10:15:59:     at Function._load (node:internal/modules/cjs/loader:1123:12)
+2025-06-30 10:15:59:     at Object.<anonymous> (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2025-06-30 10:15:59:     at Module._compile (node:internal/modules/cjs/loader:1562:14) {
+2025-06-30 10:15:59:   code: 'MODULE_NOT_FOUND',
+2025-06-30 10:15:59:   requireStack: [ 'C:\\codingan ku\\bot watshaap fix\\app.js' ]
+2025-06-30 10:15:59: }
+2025-06-30 10:16:00: Error: Cannot find module 'express'
+2025-06-30 10:16:00: Require stack:
+2025-06-30 10:16:00: - C:\codingan ku\bot watshaap fix\app.js
+2025-06-30 10:16:00:     at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+2025-06-30 10:16:00:     at Hook._require.Module.require (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-06-30 10:16:00:     at require (node:internal/modules/helpers:136:16)
+2025-06-30 10:16:00:     at Object.<anonymous> (C:\codingan ku\bot watshaap fix\app.js:1:17)
+2025-06-30 10:16:00:     at Module._compile (node:internal/modules/cjs/loader:1562:14)
+2025-06-30 10:16:00:     at Object..js (node:internal/modules/cjs/loader:1699:10)
+2025-06-30 10:16:00:     at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-06-30 10:16:00:     at Function._load (node:internal/modules/cjs/loader:1123:12)
+2025-06-30 10:16:00:     at Object.<anonymous> (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2025-06-30 10:16:00:     at Module._compile (node:internal/modules/cjs/loader:1562:14) {
+2025-06-30 10:16:00:   code: 'MODULE_NOT_FOUND',
+2025-06-30 10:16:00:   requireStack: [ 'C:\\codingan ku\\bot watshaap fix\\app.js' ]
+2025-06-30 10:16:00: }
+2025-06-30 10:16:00: Error: Cannot find module 'express'
+2025-06-30 10:16:00: Require stack:
+2025-06-30 10:16:00: - C:\codingan ku\bot watshaap fix\app.js
+2025-06-30 10:16:00:     at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+2025-06-30 10:16:00:     at Hook._require.Module.require (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-06-30 10:16:00:     at require (node:internal/modules/helpers:136:16)
+2025-06-30 10:16:00:     at Object.<anonymous> (C:\codingan ku\bot watshaap fix\app.js:1:17)
+2025-06-30 10:16:00:     at Module._compile (node:internal/modules/cjs/loader:1562:14)
+2025-06-30 10:16:00:     at Object..js (node:internal/modules/cjs/loader:1699:10)
+2025-06-30 10:16:00:     at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-06-30 10:16:00:     at Function._load (node:internal/modules/cjs/loader:1123:12)
+2025-06-30 10:16:00:     at Object.<anonymous> (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2025-06-30 10:16:00:     at Module._compile (node:internal/modules/cjs/loader:1562:14) {
+2025-06-30 10:16:00:   code: 'MODULE_NOT_FOUND',
+2025-06-30 10:16:00:   requireStack: [ 'C:\\codingan ku\\bot watshaap fix\\app.js' ]
+2025-06-30 10:16:00: }
+2025-06-30 10:16:00: Error: Cannot find module 'express'
+2025-06-30 10:16:00: Require stack:
+2025-06-30 10:16:00: - C:\codingan ku\bot watshaap fix\app.js
+2025-06-30 10:16:00:     at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+2025-06-30 10:16:00:     at Hook._require.Module.require (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-06-30 10:16:00:     at require (node:internal/modules/helpers:136:16)
+2025-06-30 10:16:00:     at Object.<anonymous> (C:\codingan ku\bot watshaap fix\app.js:1:17)
+2025-06-30 10:16:00:     at Module._compile (node:internal/modules/cjs/loader:1562:14)
+2025-06-30 10:16:00:     at Object..js (node:internal/modules/cjs/loader:1699:10)
+2025-06-30 10:16:00:     at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-06-30 10:16:00:     at Function._load (node:internal/modules/cjs/loader:1123:12)
+2025-06-30 10:16:00:     at Object.<anonymous> (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2025-06-30 10:16:00:     at Module._compile (node:internal/modules/cjs/loader:1562:14) {
+2025-06-30 10:16:00:   code: 'MODULE_NOT_FOUND',
+2025-06-30 10:16:00:   requireStack: [ 'C:\\codingan ku\\bot watshaap fix\\app.js' ]
+2025-06-30 10:16:00: }
+2025-06-30 10:16:00: Error: Cannot find module 'express'
+2025-06-30 10:16:00: Require stack:
+2025-06-30 10:16:00: - C:\codingan ku\bot watshaap fix\app.js
+2025-06-30 10:16:00:     at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+2025-06-30 10:16:00:     at Hook._require.Module.require (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-06-30 10:16:00:     at require (node:internal/modules/helpers:136:16)
+2025-06-30 10:16:00:     at Object.<anonymous> (C:\codingan ku\bot watshaap fix\app.js:1:17)
+2025-06-30 10:16:00:     at Module._compile (node:internal/modules/cjs/loader:1562:14)
+2025-06-30 10:16:00:     at Object..js (node:internal/modules/cjs/loader:1699:10)
+2025-06-30 10:16:00:     at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-06-30 10:16:00:     at Function._load (node:internal/modules/cjs/loader:1123:12)
+2025-06-30 10:16:00:     at Object.<anonymous> (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2025-06-30 10:16:00:     at Module._compile (node:internal/modules/cjs/loader:1562:14) {
+2025-06-30 10:16:00:   code: 'MODULE_NOT_FOUND',
+2025-06-30 10:16:00:   requireStack: [ 'C:\\codingan ku\\bot watshaap fix\\app.js' ]
+2025-06-30 10:16:00: }
+2025-06-30 10:16:00: Error: Cannot find module 'express'
+2025-06-30 10:16:00: Require stack:
+2025-06-30 10:16:00: - C:\codingan ku\bot watshaap fix\app.js
+2025-06-30 10:16:00:     at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+2025-06-30 10:16:00:     at Hook._require.Module.require (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-06-30 10:16:00:     at require (node:internal/modules/helpers:136:16)
+2025-06-30 10:16:00:     at Object.<anonymous> (C:\codingan ku\bot watshaap fix\app.js:1:17)
+2025-06-30 10:16:00:     at Module._compile (node:internal/modules/cjs/loader:1562:14)
+2025-06-30 10:16:00:     at Object..js (node:internal/modules/cjs/loader:1699:10)
+2025-06-30 10:16:00:     at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-06-30 10:16:00:     at Function._load (node:internal/modules/cjs/loader:1123:12)
+2025-06-30 10:16:00:     at Object.<anonymous> (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2025-06-30 10:16:00:     at Module._compile (node:internal/modules/cjs/loader:1562:14) {
+2025-06-30 10:16:00:   code: 'MODULE_NOT_FOUND',
+2025-06-30 10:16:00:   requireStack: [ 'C:\\codingan ku\\bot watshaap fix\\app.js' ]
+2025-06-30 10:16:00: }
+2025-06-30 10:16:01: Error: Cannot find module 'express'
+2025-06-30 10:16:01: Require stack:
+2025-06-30 10:16:01: - C:\codingan ku\bot watshaap fix\app.js
+2025-06-30 10:16:01:     at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+2025-06-30 10:16:01:     at Hook._require.Module.require (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-06-30 10:16:01:     at require (node:internal/modules/helpers:136:16)
+2025-06-30 10:16:01:     at Object.<anonymous> (C:\codingan ku\bot watshaap fix\app.js:1:17)
+2025-06-30 10:16:01:     at Module._compile (node:internal/modules/cjs/loader:1562:14)
+2025-06-30 10:16:01:     at Object..js (node:internal/modules/cjs/loader:1699:10)
+2025-06-30 10:16:01:     at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-06-30 10:16:01:     at Function._load (node:internal/modules/cjs/loader:1123:12)
+2025-06-30 10:16:01:     at Object.<anonymous> (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2025-06-30 10:16:01:     at Module._compile (node:internal/modules/cjs/loader:1562:14) {
+2025-06-30 10:16:01:   code: 'MODULE_NOT_FOUND',
+2025-06-30 10:16:01:   requireStack: [ 'C:\\codingan ku\\bot watshaap fix\\app.js' ]
+2025-06-30 10:16:01: }
+2025-06-30 10:16:01: Error: Cannot find module 'express'
+2025-06-30 10:16:01: Require stack:
+2025-06-30 10:16:01: - C:\codingan ku\bot watshaap fix\app.js
+2025-06-30 10:16:01:     at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+2025-06-30 10:16:01:     at Hook._require.Module.require (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-06-30 10:16:01:     at require (node:internal/modules/helpers:136:16)
+2025-06-30 10:16:01:     at Object.<anonymous> (C:\codingan ku\bot watshaap fix\app.js:1:17)
+2025-06-30 10:16:01:     at Module._compile (node:internal/modules/cjs/loader:1562:14)
+2025-06-30 10:16:01:     at Object..js (node:internal/modules/cjs/loader:1699:10)
+2025-06-30 10:16:01:     at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-06-30 10:16:01:     at Function._load (node:internal/modules/cjs/loader:1123:12)
+2025-06-30 10:16:01:     at Object.<anonymous> (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2025-06-30 10:16:01:     at Module._compile (node:internal/modules/cjs/loader:1562:14) {
+2025-06-30 10:16:01:   code: 'MODULE_NOT_FOUND',
+2025-06-30 10:16:01:   requireStack: [ 'C:\\codingan ku\\bot watshaap fix\\app.js' ]
+2025-06-30 10:16:01: }
+2025-06-30 10:16:01: Error: Cannot find module 'express'
+2025-06-30 10:16:01: Require stack:
+2025-06-30 10:16:01: - C:\codingan ku\bot watshaap fix\app.js
+2025-06-30 10:16:01:     at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+2025-06-30 10:16:01:     at Hook._require.Module.require (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-06-30 10:16:01:     at require (node:internal/modules/helpers:136:16)
+2025-06-30 10:16:01:     at Object.<anonymous> (C:\codingan ku\bot watshaap fix\app.js:1:17)
+2025-06-30 10:16:01:     at Module._compile (node:internal/modules/cjs/loader:1562:14)
+2025-06-30 10:16:01:     at Object..js (node:internal/modules/cjs/loader:1699:10)
+2025-06-30 10:16:01:     at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-06-30 10:16:01:     at Function._load (node:internal/modules/cjs/loader:1123:12)
+2025-06-30 10:16:01:     at Object.<anonymous> (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2025-06-30 10:16:01:     at Module._compile (node:internal/modules/cjs/loader:1562:14) {
+2025-06-30 10:16:01:   code: 'MODULE_NOT_FOUND',
+2025-06-30 10:16:01:   requireStack: [ 'C:\\codingan ku\\bot watshaap fix\\app.js' ]
+2025-06-30 10:16:01: }
+2025-06-30 10:16:01: Error: Cannot find module 'express'
+2025-06-30 10:16:01: Require stack:
+2025-06-30 10:16:01: - C:\codingan ku\bot watshaap fix\app.js
+2025-06-30 10:16:01:     at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+2025-06-30 10:16:01:     at Hook._require.Module.require (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-06-30 10:16:01:     at require (node:internal/modules/helpers:136:16)
+2025-06-30 10:16:01:     at Object.<anonymous> (C:\codingan ku\bot watshaap fix\app.js:1:17)
+2025-06-30 10:16:01:     at Module._compile (node:internal/modules/cjs/loader:1562:14)
+2025-06-30 10:16:01:     at Object..js (node:internal/modules/cjs/loader:1699:10)
+2025-06-30 10:16:01:     at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-06-30 10:16:01:     at Function._load (node:internal/modules/cjs/loader:1123:12)
+2025-06-30 10:16:01:     at Object.<anonymous> (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2025-06-30 10:16:01:     at Module._compile (node:internal/modules/cjs/loader:1562:14) {
+2025-06-30 10:16:01:   code: 'MODULE_NOT_FOUND',
+2025-06-30 10:16:01:   requireStack: [ 'C:\\codingan ku\\bot watshaap fix\\app.js' ]
+2025-06-30 10:16:01: }
+2025-06-30 10:16:01: Error: Cannot find module 'express'
+2025-06-30 10:16:01: Require stack:
+2025-06-30 10:16:01: - C:\codingan ku\bot watshaap fix\app.js
+2025-06-30 10:16:01:     at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+2025-06-30 10:16:01:     at Hook._require.Module.require (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-06-30 10:16:01:     at require (node:internal/modules/helpers:136:16)
+2025-06-30 10:16:01:     at Object.<anonymous> (C:\codingan ku\bot watshaap fix\app.js:1:17)
+2025-06-30 10:16:01:     at Module._compile (node:internal/modules/cjs/loader:1562:14)
+2025-06-30 10:16:01:     at Object..js (node:internal/modules/cjs/loader:1699:10)
+2025-06-30 10:16:01:     at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-06-30 10:16:01:     at Function._load (node:internal/modules/cjs/loader:1123:12)
+2025-06-30 10:16:01:     at Object.<anonymous> (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2025-06-30 10:16:01:     at Module._compile (node:internal/modules/cjs/loader:1562:14) {
+2025-06-30 10:16:01:   code: 'MODULE_NOT_FOUND',
+2025-06-30 10:16:01:   requireStack: [ 'C:\\codingan ku\\bot watshaap fix\\app.js' ]
+2025-06-30 10:16:01: }
+2025-06-30 10:16:01: Error: Cannot find module 'express'
+2025-06-30 10:16:01: Require stack:
+2025-06-30 10:16:01: - C:\codingan ku\bot watshaap fix\app.js
+2025-06-30 10:16:01:     at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+2025-06-30 10:16:01:     at Hook._require.Module.require (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-06-30 10:16:01:     at require (node:internal/modules/helpers:136:16)
+2025-06-30 10:16:01:     at Object.<anonymous> (C:\codingan ku\bot watshaap fix\app.js:1:17)
+2025-06-30 10:16:01:     at Module._compile (node:internal/modules/cjs/loader:1562:14)
+2025-06-30 10:16:01:     at Object..js (node:internal/modules/cjs/loader:1699:10)
+2025-06-30 10:16:01:     at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-06-30 10:16:01:     at Function._load (node:internal/modules/cjs/loader:1123:12)
+2025-06-30 10:16:01:     at Object.<anonymous> (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2025-06-30 10:16:01:     at Module._compile (node:internal/modules/cjs/loader:1562:14) {
+2025-06-30 10:16:01:   code: 'MODULE_NOT_FOUND',
+2025-06-30 10:16:01:   requireStack: [ 'C:\\codingan ku\\bot watshaap fix\\app.js' ]
+2025-06-30 10:16:01: }
+2025-06-30 10:16:02: Error: Cannot find module 'express'
+2025-06-30 10:16:02: Require stack:
+2025-06-30 10:16:02: - C:\codingan ku\bot watshaap fix\app.js
+2025-06-30 10:16:02:     at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+2025-06-30 10:16:02:     at Hook._require.Module.require (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-06-30 10:16:02:     at require (node:internal/modules/helpers:136:16)
+2025-06-30 10:16:02:     at Object.<anonymous> (C:\codingan ku\bot watshaap fix\app.js:1:17)
+2025-06-30 10:16:02:     at Module._compile (node:internal/modules/cjs/loader:1562:14)
+2025-06-30 10:16:02:     at Object..js (node:internal/modules/cjs/loader:1699:10)
+2025-06-30 10:16:02:     at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-06-30 10:16:02:     at Function._load (node:internal/modules/cjs/loader:1123:12)
+2025-06-30 10:16:02:     at Object.<anonymous> (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2025-06-30 10:16:02:     at Module._compile (node:internal/modules/cjs/loader:1562:14) {
+2025-06-30 10:16:02:   code: 'MODULE_NOT_FOUND',
+2025-06-30 10:16:02:   requireStack: [ 'C:\\codingan ku\\bot watshaap fix\\app.js' ]
+2025-06-30 10:16:02: }
+2025-06-30 10:16:02: Error: Cannot find module 'express'
+2025-06-30 10:16:02: Require stack:
+2025-06-30 10:16:02: - C:\codingan ku\bot watshaap fix\app.js
+2025-06-30 10:16:02:     at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+2025-06-30 10:16:02:     at Hook._require.Module.require (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-06-30 10:16:02:     at require (node:internal/modules/helpers:136:16)
+2025-06-30 10:16:02:     at Object.<anonymous> (C:\codingan ku\bot watshaap fix\app.js:1:17)
+2025-06-30 10:16:02:     at Module._compile (node:internal/modules/cjs/loader:1562:14)
+2025-06-30 10:16:02:     at Object..js (node:internal/modules/cjs/loader:1699:10)
+2025-06-30 10:16:02:     at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-06-30 10:16:02:     at Function._load (node:internal/modules/cjs/loader:1123:12)
+2025-06-30 10:16:02:     at Object.<anonymous> (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2025-06-30 10:16:02:     at Module._compile (node:internal/modules/cjs/loader:1562:14) {
+2025-06-30 10:16:02:   code: 'MODULE_NOT_FOUND',
+2025-06-30 10:16:02:   requireStack: [ 'C:\\codingan ku\\bot watshaap fix\\app.js' ]
+2025-06-30 10:16:02: }
+2025-06-30 10:16:02: Error: Cannot find module 'express'
+2025-06-30 10:16:02: Require stack:
+2025-06-30 10:16:02: - C:\codingan ku\bot watshaap fix\app.js
+2025-06-30 10:16:02:     at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+2025-06-30 10:16:02:     at Hook._require.Module.require (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-06-30 10:16:02:     at require (node:internal/modules/helpers:136:16)
+2025-06-30 10:16:02:     at Object.<anonymous> (C:\codingan ku\bot watshaap fix\app.js:1:17)
+2025-06-30 10:16:02:     at Module._compile (node:internal/modules/cjs/loader:1562:14)
+2025-06-30 10:16:02:     at Object..js (node:internal/modules/cjs/loader:1699:10)
+2025-06-30 10:16:02:     at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-06-30 10:16:02:     at Function._load (node:internal/modules/cjs/loader:1123:12)
+2025-06-30 10:16:02:     at Object.<anonymous> (C:\Users\User\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2025-06-30 10:16:02:     at Module._compile (node:internal/modules/cjs/loader:1562:14) {
+2025-06-30 10:16:02:   code: 'MODULE_NOT_FOUND',
+2025-06-30 10:16:02:   requireStack: [ 'C:\\codingan ku\\bot watshaap fix\\app.js' ]
+2025-06-30 10:16:02: }

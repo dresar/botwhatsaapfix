@@ -1,0 +1,51 @@
+# Melindungi file sensitif
+<FilesMatch "\.(env|json|config.js|sqlite|db|sh)$">
+Order allow,deny
+Deny from all
+</FilesMatch>
+
+# Mengizinkan akses ke direktori tertentu
+<FilesMatch "index.js">
+Order allow,deny
+Allow from all
+</FilesMatch>
+
+# Menonaktifkan listing direktori
+Options -Indexes
+
+# Melindungi direktori .wwebjs_auth
+<DirectoryMatch "^\.wwebjs_auth">
+Order allow,deny
+Deny from all
+</DirectoryMatch>
+
+# Melindungi direktori node_modules
+<DirectoryMatch "^node_modules">
+Order allow,deny
+Deny from all
+</DirectoryMatch>
+
+# Melindungi direktori data
+<DirectoryMatch "^data">
+Order allow,deny
+Deny from all
+</DirectoryMatch>
+
+# Melindungi direktori temp
+<DirectoryMatch "^temp">
+Order allow,deny
+Deny from all
+</DirectoryMatch>
+
+# Melindungi direktori logs
+<DirectoryMatch "^logs">
+Order allow,deny
+Deny from all
+</DirectoryMatch>
+
+# Redirect semua permintaan ke Node.js app
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^$ app.js [L]
+RewriteRule (.*) app.js [L]
+</IfModule>

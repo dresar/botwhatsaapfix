@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log - WhatsApp Bot Admin</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Sidebar -->
+      <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-dark sidebar">
+        <div class="position-sticky">
+          <div class="sidebar-header">
+            <img src="/images/logo.svg" alt="Logo" class="sidebar-logo">
+            <h3 class="sidebar-title">WhatsApp Bot</h3>
+          </div>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="bi bi-speedometer2"></i> Dashboard
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#bot-control">
+                <i class="bi bi-power"></i> Kontrol Bot
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#features">
+                <i class="bi bi-toggles"></i> Fitur
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/qrcode">
+                <i class="bi bi-qr-code"></i> QR Code
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/logs">
+                <i class="bi bi-journal-text"></i> Log
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/settings">
+                <i class="bi bi-gear"></i> Pengaturan
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/logout">
+                <i class="bi bi-box-arrow-right"></i> Logout
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Main content -->
+      <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          <h1 class="h2">Log Bot</h1>
+          <div class="btn-toolbar mb-2 mb-md-0">
+            <button type="button" class="btn btn-sm btn-outline-secondary d-md-none" id="sidebarToggle">
+              <i class="bi bi-list"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-header d-flex justify-content-between align-items-center">
+                <div>
+                  <div class="btn-group me-2">
+                    <button type="button" class="btn btn-sm btn-outline-secondary active" id="outLogBtn">Output Log</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" id="errorLogBtn">Error Log</button>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center">
+                  <label for="logLines" class="form-label me-2 mb-0">Baris:</label>
+                  <select class="form-select form-select-sm me-2" id="logLines" style="width: auto;">
+                    <option value="50">50</option>
+                    <option value="100" selected>100</option>
+                    <option value="200">200</option>
+                    <option value="500">500</option>
+                  </select>
+                  <button class="btn btn-sm btn-primary" id="refreshLog">
+                    <i class="bi bi-arrow-clockwise"></i> Refresh
+                  </button>
+                </div>
+              </div>
+              <div class="card-body p-0">
+                <div class="log-container" id="logContainer">
+                  <div class="text-center p-3">
+                    <div class="spinner-border text-primary" role="status">
+                      <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <p class="mt-2">Memuat log...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card mb-4">
+              <div class="card-header">
+                <h5 class="card-title mb-0">Informasi Log</h5>
+              </div>
+              <div class="card-body">
+                <p><strong>Output Log:</strong> Berisi output normal dari bot, termasuk informasi startup, status, dan aktivitas normal.</p>
+                <p><strong>Error Log:</strong> Berisi pesan error dan warning yang terjadi selama operasi bot.</p>
+                <div class="alert alert-info">
+                  <i class="bi bi-info-circle"></i> Log secara otomatis di-refresh setiap 30 detik. Anda juga dapat menekan tombol Refresh untuk memuat log terbaru.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/admin.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const logContainer = document.getElementById('logContainer');
+      const outLogBtn = document.getElementById('outLogBtn');
+      const errorLogBtn = document.getElementById('errorLogBtn');
+      const logLines = document.getElementById('logLines');
+      const refreshLogBtn = document.getElementById('refreshLog');
+      
+      let currentLogType = 'out';
+      let autoRefreshInterval;
+      
+      // Fungsi untuk memuat log
+      function loadLog() {
+        const lines = logLines.value;
+        
+        // Tampilkan loading
+        logContainer.innerHTML = `
+          <div class="text-center p-3">
+            <div class="spinner-border text-primary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <p class="mt-2">Memuat log...</p>
+          </div>
+        `;
+        
+        // Ambil log dari API
+        fetch(`/api/logs?type=${currentLogType}&lines=${lines}`)
+          .then(response => response.json())
+          .then(data => {
+            if (data.error) {
+              logContainer.innerHTML = `
+                <div class="alert alert-danger m-3">
+                  <i class="bi bi-exclamation-triangle"></i> ${data.error}
+                </div>
+              `;
+              return;
+            }
+            
+            if (!data.logs || data.logs.length === 0) {
+              logContainer.innerHTML = `
+                <div class="alert alert-info m-3">
+                  <i class="bi bi-info-circle"></i> Tidak ada log tersedia.
+                </div>
+              `;
+              return;
+            }
+            
+            // Tampilkan log
+            logContainer.innerHTML = `<pre class="log-content">${data.logs.join('\n')}</pre>`;
+            
+            // Scroll ke bawah
+            logContainer.scrollTop = logContainer.scrollHeight;
+          })
+          .catch(error => {
+            console.error('Error loading log:', error);
+            logContainer.innerHTML = `
+              <div class="alert alert-danger m-3">
+                <i class="bi bi-exclamation-triangle"></i> Gagal memuat log: ${error.message}
+              </div>
+            `;
+          });
+      }
+      
+      // Fungsi untuk memulai auto refresh
+      function startAutoRefresh() {
+        // Hentikan interval yang ada jika ada
+        if (autoRefreshInterval) {
+          clearInterval(autoRefreshInterval);
+        }
+        
+        // Mulai interval baru
+        autoRefreshInterval = setInterval(loadLog, 30000); // 30 detik
+      }
+      
+      // Muat log saat halaman dimuat
+      loadLog();
+      startAutoRefresh();
+      
+      // Event listener untuk tombol Output Log
+      outLogBtn.addEventListener('click', function() {
+        if (currentLogType !== 'out') {
+          currentLogType = 'out';
+          outLogBtn.classList.add('active');
+          errorLogBtn.classList.remove('active');
+          loadLog();
+        }
+      });
+      
+      // Event listener untuk tombol Error Log
+      errorLogBtn.addEventListener('click', function() {
+        if (currentLogType !== 'error') {
+          currentLogType = 'error';
+          errorLogBtn.classList.add('active');
+          outLogBtn.classList.remove('active');
+          loadLog();
+        }
+      });
+      
+      // Event listener untuk dropdown jumlah baris
+      logLines.addEventListener('change', loadLog);
+      
+      // Event listener untuk tombol refresh
+      refreshLogBtn.addEventListener('click', loadLog);
+    });
+  </script>
+</body>
+</html>
